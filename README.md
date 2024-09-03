@@ -98,4 +98,5 @@ O serviço GraphQL está disponível na porta 8080. Para listar as ordens:
            Tax
            FinalPrice
        }
+      }  
    ```
