@@ -91,12 +91,15 @@ O serviço GraphQL está disponível na porta 8080. Para listar as ordens:
    ```
    - Execute a seguinte query:
    
-      query listOrders {
-       listOrders {
-           id
-           Price
-           Tax
-           FinalPrice
-       }
-      }  
+    query listOrders {
+	  listOrders {
+		id
+		Price
+		Tax
+		FinalPrice
+	}
+}   
    ```
+`Obs: realizei os testes passados acima, seguindo o README e não houveram erros de execução. 
+Testei em outra máquina por garantia e também não foram apresentadas divergências. Versão GraphQL v0.17.49 Versão do Go: 1.19
+`
